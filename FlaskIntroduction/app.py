@@ -57,7 +57,7 @@ def update(id):
             db.session.commit()
             return redirect('/')
         except:
-            return "ERROR"
+            return "THIS IS AN ERROR"
 
     else:
 
